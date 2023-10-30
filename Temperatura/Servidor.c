@@ -128,7 +128,7 @@ int main(int argc, char *argv[])
 	if (listen(sock_listen, 3) < 0)
 		printf("Error en el Listen");
 	
-	contador =0;
+	contador = 0;
 	
 	pthread_t thread;
 	i=0;

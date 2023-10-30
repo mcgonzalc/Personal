@@ -83,7 +83,13 @@ namespace WindowsFormsApplication1
                         formularios[nform].TomaRespuesta4(mensaje);
                         break;
 
-                    case 6:     //Recibimos notificacion
+                    case 6:       //Recibimos la respuesta de los servicios que tenemos a la vez
+                        nform = Convert.ToInt32(trozos[1]);
+                        mensaje = trozos[2].Split('\0')[0];
+                        formularios[nform].TomaRespuesta4(mensaje);
+                        break;
+
+                    case 7:     //Recibimos notificacion
 
                  
                         mensaje = trozos[1].Split('\0')[0];
@@ -108,7 +114,7 @@ namespace WindowsFormsApplication1
             //Creamos un IPEndPoint con el ip del servidor y puerto del servidor 
             //al que deseamos conectarnos
             IPAddress direc = IPAddress.Parse("192.168.56.101");
-            IPEndPoint ipep = new IPEndPoint(direc, 9050);
+            IPEndPoint ipep = new IPEndPoint(direc, 9051);
             
 
             //Creamos el socket 
@@ -124,7 +130,7 @@ namespace WindowsFormsApplication1
                 atender.Start();
 
             }
-            catch (SocketException ex)
+            catch (SocketException)
             {
                 //Si hay excepcion imprimimos error y salimos del programa con return 
                 MessageBox.Show("No he podido conectar con el servidor");

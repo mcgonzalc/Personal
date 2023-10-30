@@ -144,3 +144,14 @@ D:\Nextcloud\Universitat\Sistemes operatius\Projecte\Joc\EjercicioGuiaSistemasOp
 D:\Nextcloud\Universitat\Sistemes operatius\Projecte\Joc\EjercicioGuiaSistemasOperativos\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.CoreCompileInputs.cache
 D:\Nextcloud\Universitat\Sistemes operatius\Projecte\Joc\EjercicioGuiaSistemasOperativos\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 D:\Nextcloud\Universitat\Sistemes operatius\Projecte\Joc\EjercicioGuiaSistemasOperativos\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\Nextcloud\Universitat\Sistemes operatius\Repositoris\Personal\Noms\Client\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Nextcloud\Universitat\Sistemes operatius\Repositoris\Personal\Noms\Client\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\Nextcloud\Universitat\Sistemes operatius\Repositoris\Personal\Noms\Client\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\Nextcloud\Universitat\Sistemes operatius\Repositoris\Personal\Noms\Client\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.AssemblyReference.cache
+D:\Nextcloud\Universitat\Sistemes operatius\Repositoris\Personal\Noms\Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\Nextcloud\Universitat\Sistemes operatius\Repositoris\Personal\Noms\Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+D:\Nextcloud\Universitat\Sistemes operatius\Repositoris\Personal\Noms\Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Nextcloud\Universitat\Sistemes operatius\Repositoris\Personal\Noms\Client\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.cache
+D:\Nextcloud\Universitat\Sistemes operatius\Repositoris\Personal\Noms\Client\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.CoreCompileInputs.cache
+D:\Nextcloud\Universitat\Sistemes operatius\Repositoris\Personal\Noms\Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Nextcloud\Universitat\Sistemes operatius\Repositoris\Personal\Noms\Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

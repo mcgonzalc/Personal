@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.palindromo = new System.Windows.Forms.RadioButton();
             this.Longitud = new System.Windows.Forms.RadioButton();
             this.altura = new System.Windows.Forms.RadioButton();
             this.label3 = new System.Windows.Forms.Label();
@@ -38,8 +39,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.nombre = new System.Windows.Forms.TextBox();
             this.numForm = new System.Windows.Forms.Label();
-            this.palindromo = new System.Windows.Forms.RadioButton();
             this.mayusculas = new System.Windows.Forms.RadioButton();
+            this.serviciosalavez = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,19 +57,31 @@
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.nombre);
             this.groupBox1.Location = new System.Drawing.Point(272, 176);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(484, 249);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Peticion";
             // 
+            // palindromo
+            // 
+            this.palindromo.AutoSize = true;
+            this.palindromo.Location = new System.Drawing.Point(155, 168);
+            this.palindromo.Margin = new System.Windows.Forms.Padding(4);
+            this.palindromo.Name = "palindromo";
+            this.palindromo.Size = new System.Drawing.Size(228, 20);
+            this.palindromo.TabIndex = 10;
+            this.palindromo.TabStop = true;
+            this.palindromo.Text = "Dime si mi nombre es palíndromo";
+            this.palindromo.UseVisualStyleBackColor = true;
+            // 
             // Longitud
             // 
             this.Longitud.AutoSize = true;
             this.Longitud.Location = new System.Drawing.Point(155, 112);
-            this.Longitud.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Longitud.Margin = new System.Windows.Forms.Padding(4);
             this.Longitud.Name = "Longitud";
             this.Longitud.Size = new System.Drawing.Size(209, 20);
             this.Longitud.TabIndex = 7;
@@ -80,7 +93,7 @@
             // 
             this.altura.AutoSize = true;
             this.altura.Location = new System.Drawing.Point(155, 140);
-            this.altura.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.altura.Margin = new System.Windows.Forms.Padding(4);
             this.altura.Name = "altura";
             this.altura.Size = new System.Drawing.Size(123, 20);
             this.altura.TabIndex = 7;
@@ -101,7 +114,7 @@
             // alturaBox
             // 
             this.alturaBox.Location = new System.Drawing.Point(20, 135);
-            this.alturaBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.alturaBox.Margin = new System.Windows.Forms.Padding(4);
             this.alturaBox.Name = "alturaBox";
             this.alturaBox.Size = new System.Drawing.Size(81, 22);
             this.alturaBox.TabIndex = 9;
@@ -110,7 +123,7 @@
             // 
             this.Bonito.AutoSize = true;
             this.Bonito.Location = new System.Drawing.Point(155, 84);
-            this.Bonito.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Bonito.Margin = new System.Windows.Forms.Padding(4);
             this.Bonito.Name = "Bonito";
             this.Bonito.Size = new System.Drawing.Size(197, 20);
             this.Bonito.TabIndex = 8;
@@ -132,7 +145,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(168, 213);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 5;
@@ -143,7 +156,7 @@
             // nombre
             // 
             this.nombre.Location = new System.Drawing.Point(155, 38);
-            this.nombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nombre.Margin = new System.Windows.Forms.Padding(4);
             this.nombre.Name = "nombre";
             this.nombre.Size = new System.Drawing.Size(217, 22);
             this.nombre.TabIndex = 3;
@@ -158,18 +171,6 @@
             this.numForm.Size = new System.Drawing.Size(130, 113);
             this.numForm.TabIndex = 10;
             // 
-            // palindromo
-            // 
-            this.palindromo.AutoSize = true;
-            this.palindromo.Location = new System.Drawing.Point(155, 168);
-            this.palindromo.Margin = new System.Windows.Forms.Padding(4);
-            this.palindromo.Name = "palindromo";
-            this.palindromo.Size = new System.Drawing.Size(228, 20);
-            this.palindromo.TabIndex = 10;
-            this.palindromo.TabStop = true;
-            this.palindromo.Text = "Dime si mi nombre es palíndromo";
-            this.palindromo.UseVisualStyleBackColor = true;
-            // 
             // mayusculas
             // 
             this.mayusculas.AutoSize = true;
@@ -182,15 +183,28 @@
             this.mayusculas.Text = "Dime mi nombre en mayúsculas";
             this.mayusculas.UseVisualStyleBackColor = true;
             // 
+            // serviciosalavez
+            // 
+            this.serviciosalavez.AutoSize = true;
+            this.serviciosalavez.Location = new System.Drawing.Point(663, 316);
+            this.serviciosalavez.Margin = new System.Windows.Forms.Padding(4);
+            this.serviciosalavez.Name = "serviciosalavez";
+            this.serviciosalavez.Size = new System.Drawing.Size(227, 20);
+            this.serviciosalavez.TabIndex = 12;
+            this.serviciosalavez.TabStop = true;
+            this.serviciosalavez.Text = "Cuántos servicios tengo a la vez?";
+            this.serviciosalavez.UseVisualStyleBackColor = true;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1027, 601);
+            this.Controls.Add(this.serviciosalavez);
             this.Controls.Add(this.mayusculas);
             this.Controls.Add(this.numForm);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
@@ -215,5 +229,6 @@
         private System.Windows.Forms.Label numForm;
         private System.Windows.Forms.RadioButton palindromo;
         private System.Windows.Forms.RadioButton mayusculas;
+        private System.Windows.Forms.RadioButton serviciosalavez;
     }
 }

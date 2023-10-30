@@ -5,6 +5,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <stdio.h>
+#include <mysql.h>
 #include <pthread.h>
 
 int contador;
@@ -52,7 +53,7 @@ void *AtenderCliente (void *socket)
 		// Ya tenemos el c?digo de la petici?n
 		char nombre[20];
 		
-		if (codigo !=0)
+		if (codigo !=0 && codigo !=6)
 		{
 			p = strtok( NULL, "/");
 			numForm =  atoi (p);
@@ -160,6 +161,10 @@ void *AtenderCliente (void *socket)
 			
 			sprintf (respuesta, "5/%d/%s es tu nombre en mayusculas", numForm, nombreenmayus);
 		}
+		else if (codigo == 6) //Quieren saber cuantos servicios tengo a la vez
+		{
+			sprintf (respuesta,"6/%d/%d",numForm,contador);
+		}
 		if (codigo !=0)
 		{
 				printf ("Respuesta: %s\n", respuesta);
@@ -206,7 +211,7 @@ int main(int argc, char *argv[])
 	//htonl formatea el numero que recibe al formato necesario
 	serv_adr.sin_addr.s_addr = htonl(INADDR_ANY);
 	// establecemos el puerto de escucha
-	serv_adr.sin_port = htons(9050);
+	serv_adr.sin_port = htons(9051);
 	if (bind(sock_listen, (struct sockaddr *) &serv_adr, sizeof(serv_adr)) < 0)
 		printf ("Error al bind");
 	

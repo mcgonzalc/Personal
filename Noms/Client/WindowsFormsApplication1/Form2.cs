@@ -40,8 +40,6 @@ namespace WindowsFormsApplication1
                 byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
                 server.Send(msg);
 
-             
-
             }
             else if (altura.Checked)
             {
@@ -51,7 +49,6 @@ namespace WindowsFormsApplication1
                 byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
                 server.Send(msg);
 
-              
             }
 
             else if (palindromo.Checked)
@@ -69,6 +66,17 @@ namespace WindowsFormsApplication1
             {
                 // Enviamos nombre
                 string mensaje = "5/" + nForm + "/" + nombre.Text;
+                // Enviamos al servidor el nombre tecleado
+                byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+                server.Send(msg);
+
+
+            }
+
+            else if (serviciosalavez.Checked)
+            {
+                // Enviamos petición
+                string mensaje = "6/" + nForm;
                 // Enviamos al servidor el nombre tecleado
                 byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
                 server.Send(msg);
